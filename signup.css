@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.18),rgba(0,0,0,0.1)),url(../meraBharat/register.jpg); */
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18),rgba(0,0,0,0.1)),url(../meraBharat/kerala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+    
+  }
+  .header{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2); 
+     
+
+  }
+
+  .container h2 {
+    text-align: center;
+    color: white;
+  }
+
+  .container input[type=text],
+  .container input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    /* justify-content: center; */
+    }
+
+    .container button {
+      background-color: #00b894;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .container button:hover {
+      opacity: 0.8;
+      background-color: white;
+      color: black;
+    }
+/* .start{
+    height: 100vh;
+    width: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18),rgba(0,0,0,0.1)),url(../meraBharat/register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_box{
+    width: 280px;
+    height: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+
+} */

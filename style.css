@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18),rgba(0,0,0,0.1)),url('../meraBharat/sheep.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+   width: 100%; 
+   height: 15vh;
+   background-color:rgba(0,0,0,0.2);
+   color:rgb(241, 254, 254);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+nav .logo img{
+    height: 115px;
+    width: 143px;
+    
+}
+
+/* nav .logo:hover{
+    animation-duration: 2s;
+    animation-direction: alternate;
+    touch-action: auto;
+    color: #00b894;
+} */
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(241, 254, 254);
+
+}
+
+nav .menu a:hover{
+    color:#00b894;
+}
+nav .menu a:first-child{
+    color: #00b894;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(250, 250, 250);
+}
+section{
+
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-shadow: 1px 2px 2px black;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    /* color: #f8f8f8; */
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+    /* color:rgb(250, 250, 250) ; */
+}
+section .btnone{
+    background: white;
+    color: black;
+}
+section .btnone:hover{
+    background: #00b894;
+    color: white;
+}
+
+section .btntwo{
+background: #00b894;
+    color: white;
+}
+section .btntwo:hover{
+    background: white;
+    color: black;
+}
+.change_content:after{
+    content:'' ;
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+
+    
+}
+@keyframes changetext{
+    0%{content:"Darjeeling";}
+    20%{content: "Andhra Pradesh";}
+    35%{content: "Rajasthan";}
+    45%{content: "Kashmir";}
+    60%{content: "Kerala";}
+    70%{content: "Odisha";}
+    85%{content: "Karnataka";}
+    100%{content: "Tamil Nadu";}
+}
